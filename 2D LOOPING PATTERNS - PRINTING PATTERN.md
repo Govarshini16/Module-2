@@ -25,12 +25,19 @@ To write a Python program to print a triangular star pattern using loops.
 
 ### PROGRAM
 ```
-#Reg.No:
-#Name:
-#Add Your Code Here
+result = lambda x,y : f"{x} is smaller than {y}" if x < y else (f"{x} is greater than {y}" if x > y          else f"{x} is equal to {y}")
+a=int(input()) 
+b=int(input())
+ 
+
+print(result(a, b))
 
 ```
 
 ### OUTPUT
 
+
+<img width="628" height="263" alt="image" src="https://github.com/user-attachments/assets/728b56e3-495b-46f0-a948-3d95e168a4e3" />
+
 ### RESULT
+Thus the python program for print a triangular star pattern using loops has been implemented and executed successfully.
